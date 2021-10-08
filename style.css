@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+:root {
+    --primarycolor: #582233;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('image/sunny.jpg');
+    font-family: "Nunito", sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.main-app {
+    margin: 100px auto;
+    width: 50vh;
+    background-color: rgba(240, 248, 255, 0.6);
+    padding: 20px;
+    text-align: center;
+}
+
+.input-box {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 0.7rem;
+    border: none;
+    outline: none;
+    color: var(--primarycolor);
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.input-box:focus {
+    background-color: rgba(255, 255, 255);
+}
+
+.weather-body {
+    display: none;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: var(--primarycolor);
+    margin-top: 1.7rem;
+    color: var(--primarycolor);
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    height: 50vh;
+}
+
+.location-details {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.location-temp {
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 40px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.min-max,
+.weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
